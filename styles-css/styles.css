@@ -1,0 +1,191 @@
+/* ===== RESET ===== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  color: #2e2f42;
+  background-color: #ffffff;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* ===== HEADER ===== */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 156px;
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.logo a {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  color: #4d5ae5;
+  text-transform: uppercase;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+nav a {
+  font-weight: 500;
+}
+
+address ul {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-style: normal;
+}
+
+/* ===== HERO ===== */
+main section:first-child {
+  background-color: #2e2f42;
+  padding: 188px 0;
+  text-align: center;
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 56px;
+  line-height: 1.1;
+  max-width: 496px;
+  margin: 0 auto 48px;
+}
+
+button {
+  padding: 16px 32px;
+  background-color: #4d5ae5;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #404bbf;
+}
+
+/* ===== FEATURES ===== */
+main section:nth-child(2) {
+  padding: 120px 156px;
+}
+
+main section:nth-child(2) ul {
+  display: flex;
+  gap: 24px;
+}
+
+main section:nth-child(2) li {
+  width: calc((100% - 72px) / 4);
+}
+
+h2 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 72px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+p {
+  line-height: 1.5;
+  color: #434455;
+}
+
+/* ===== TEAM ===== */
+main section:nth-child(3) {
+  background-color: #f4f4fd;
+  padding: 120px 156px;
+}
+
+main section:nth-child(3) ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+}
+
+main section:nth-child(3) li {
+  width: 264px;
+  background-color: #ffffff;
+  text-align: center;
+  border-radius: 4px;
+  padding-bottom: 32px;
+  box-shadow:
+    0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
+main section:nth-child(3) img {
+  margin-bottom: 32px;
+}
+
+/* ===== PORTFOLIO ===== */
+main section:nth-child(4) {
+  padding: 120px 156px;
+}
+
+main section:nth-child(4) ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+main section:nth-child(4) li {
+  width: calc((100% - 48px) / 3);
+}
+
+main section:nth-child(4) h3 {
+  margin-top: 16px;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  background-color: #2e2f42;
+  padding: 100px 156px;
+  color: #f4f4fd;
+}
+
+footer a {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  color: #4d5ae5;
+  text-transform: uppercase;
+}
+
+footer p {
+  max-width: 264px;
+  margin-top: 16px;
+}
