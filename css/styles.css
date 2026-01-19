@@ -62,6 +62,9 @@ a {
 .contact-link:focus {
   color: #404bbf;
 }
+address {
+  font-style: normal;
+}
 
 /* HERO */
 .hero {
@@ -73,6 +76,7 @@ a {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .hero-button {
@@ -83,6 +87,7 @@ a {
   color: #ffffff;
   background-color: #4d5ae5;
   border: none;
+  cursor: pointer;
 }
 
 .hero-button:hover,
@@ -95,6 +100,7 @@ a {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
 /* FEATURES */
@@ -113,25 +119,43 @@ a {
 }
 
 /* TEAM & PORTFOLIO */
+.team {
+  background-color: #f4f4fd;
+}
+
 .team-name,
 .portfolio-title {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  text-align: left;
 }
 
+.team ul li {
+  background-color: #ffffff;
+}
+
+.team-name,
+.team-position {
+  text-align: center;
+}
+.portfolio-text {
+  text-align: left;
+}
 .team-position,
-.portfolio-text,
-.footer-text {
+.portfolio-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #242424;
+  color: #434455;
 }
 
 /* FOOTER */
 .footer {
   background-color: #2e2f42;
   color: #e1e1f3;
+}
+.footer-text {
+  color: #e7e9fc;
 }
